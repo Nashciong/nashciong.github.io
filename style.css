@@ -1,0 +1,334 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg,
+.container-fluid,
+.col-md-12,
+.col-sm-12 {
+    background: lightseagreen;
+}
+
+header {
+    background: black;
+}
+
+.logo {
+    float: left;
+    height: 110px;
+    padding: 2px 0;
+    margin-top: 2%;
+    width: 120px
+}
+
+.navbar-nav li {
+    margin-top: 5.5vh;
+}
+
+.navbar-nav li a {
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 4.5mm;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+    color: black;
+    transition: .8s;
+}
+
+.icon-bar {
+    background: white;
+}
+
+.home-active {
+    background: lightseagreen;
+}
+
+.col-sm-6 {
+    margin: 0;
+    display: inline-block;
+}
+
+.imgg img {
+    width: 100%;
+    opacity: .8;
+    border: #f2f2f2 5px solid;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+a.backk:hover {
+    color: red;
+}
+
+.container a.backk {
+    text-align: center;
+    font-size: 6mm;
+    text-decoration: none;
+}
+
+.container-fluid {
+    background: lightseagreen
+}
+
+h1.pn-scholar {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 12mm;
+    font-weight: bolder;
+    letter-spacing: 15px;
+}
+
+p.proceed {
+    color: rgb(154, 120, 161);
+    font-family: arial;
+    font-size: 9mm;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+p.chosen {
+    color: rgb(111, 111, 151);
+    font-family: arial;
+    font-size: 7mm;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: center
+}
+
+p.struggling {
+    color: rgb(86, 103, 79);
+    font-family: arial;
+    font-size: 8.8mm;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-align: center
+}
+
+p.fighting {
+    color: rgb(71, 71, 105);
+    font-family: arial;
+    font-size: 15mm;
+    font-weight: bolder;
+    letter-spacing: 18px;
+    text-align: center
+}
+
+div.content {
+    padding: 8%
+}
+
+div.navv {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.navv a {
+    font-size: auto;
+    color: white;
+    border: white 3px solid;
+    padding: .5%;
+}
+
+div.navv a:hover {
+    color: orange;
+    font-size: 4mm
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 12%;
+}
+
+.prev {
+    margin-left: 5%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(206, 179, 28, 0.8);
+}
+
+
+.numbertext {
+    color: orange;
+    font-size: 15px;
+    padding: 0px 24px;
+    position: absolute;
+    top: 14%;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 100000s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .7
+    }
+    to {
+        opacity: .7
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .7
+    }
+    to {
+        opacity: .7
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+div.slides {
+    background: lightseagreen;
+    padding: 5%;
+}
+
+.mySlides {
+    display: none;
+    margin: 0;
+    padding: 5%;
+}
+
+.mySlides img {
+    border: white 5px solid;
+    padding: 2%;
+}
+
+.story {
+    padding: 2%;
+    background: lightseagreen;
+    margin: 5%;
+    opacity: .8;
+    color: black;
+}
+
+p.activitiess {
+    font-size: 9mm;
+    color: rgb(133, 75, 141);
+    text-align: start;
+    font-weight: bold;
+    padding-left: 1%;
+    margin-top: -5%;
+}
+
+p.life-story {
+    font-size: 4.5mm;
+}
+
+div.thumbnailll {
+    background: lightseagreen;
+    padding: 5%;
+    border: white 5px solid;
+}
+
+div.thumbnailll img {
+    height: 40vh;
+    width: 100%;
+}
+
+p.basketball {
+    text-align: center;
+    font-size: 7mm;
+    color: rgb(111, 39, 39);
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+p.infoo {
+    padding: 5%;
+    color: whitesmoke;
+    font-size: 4.5mm;
+    font-weight: 400;
+}
+
+div.thumbnail {
+    background: rgb(15, 76, 78);
+    border: rgba(255, 255, 255, 0.87) 5px solid;
+    padding: 2%;
+}
+
+.col-sm-12 {
+    padding: 2%;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+h4.links {
+    padding: 3% 0 0 0;
+}
+
+a.a-menu {
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+}
+
+#footer {
+    background: black;
+    color: white;
+}
+
+.designer {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 5mm;
+}

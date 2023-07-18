@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .bg {
+        background-color: lightseagreen;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    form {
+        padding: -10%;
+        position: relative;
+    }
+
+    /*assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-flex;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /*set a style for the buttons*/
+
+    button {
+        background: black;
+        padding: 10px 10px;
+        border: #1b4385 2px solid;
+        cursor: pointer;
+        margin-left: 2%;
+        position: absolute;
+        bottom: 30%;
+    }
+
+    button:hover {
+        width:auto
+    }
+
+    /* set a hover effect for the button*/
+
+    button:hover {
+        opacity: 0.8;
+    }
+    a.back-login,button{
+        display: inline-block;
+    }
+
+    /*centre the display image inside the container*/
+
+    .imgcontainer {
+        text-align: center;
+        padding: 100px 0 12px 0;
+    }
+
+    /*set image properties*/
+
+    img.avatar {
+        width: 20%;
+        height: 25vh;
+
+    }
+
+    /*set padding to the container*/
+
+    .container {
+        padding: 16px;
+        text-align: center;
+    }
+
+    /*set the forgot password text*/
+
+    span.psw {
+        padding-top: 16px;
+    }
+
+    a.menu {
+        margin-left: 8px;
+        font-size: 3.4mm;
+    }
+
+    p.bottom {
+        margin-bottom: 17vh
+    }
+
+    label.email {
+        margin-left: -12.5%;
+        font-size: 5.5mm;
+        position: absolute;
+    }
+
+    input.email {
+        width: 26%;
+        position: static;
+    }
+    p.yow{
+        text-align: start;
+        position: relative;
+        margin-left: 37%;
+        font-family: Arial;
+        font-size: 4mm;
+    }
+    a.back-login{
+        position: absolute;
+        margin-left:-13%;
+        font-size: 4.5mm;
+        
+    }
+
+</style>
+
+<body>
+    <div class="bg">
+        <form action="/action_page.php">
+            <div class="imgcontainer">
+                <a target="ggfh" href="PN-LOGO2.png"><img src="PN-LOGO2.png" alt="PN-Logo" class="avatar"></a>
+            </div><br>
+
+            <div class="container">
+                <p class="yow">Enter your Email and we'll send you a <br> link to change your password.</p><br>
+                <label class="email"><b>Email</b></label><br>
+                <input class="email" type="text" placeholder="Enter Email" name="uname" required><br><br>
+                <a href="login.html" class="back-login"> Back to login</a><br><br>
+
+                <button><a href="" class="loginn"
+                        style="color:white;font-weight:bold;text-decoration:none">
+                       Request Password </a></button> <br>
+
+                <a class="menu" href="">Help</a>
+                <a class="menu" href="">Privacy Policy</a>
+                <a class="menu" href="">Acceptable Use Policy</a>
+                <a class="menu" href="">Facebook</a>
+                <a class="menu" href="">Twitter</a><br><br>
+                <p style="margin-left:0%; color: blue;" class="bottom">JAVA-FAM &emsp14;@2023</p>
+
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
